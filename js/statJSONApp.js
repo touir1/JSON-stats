@@ -1,0 +1,1 @@
+angular.module('statJSONApp', ['statJSONRoutes','MainStatJSON','ngResource'])

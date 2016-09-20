@@ -1,0 +1,19 @@
+<div class="mainClass">
+	<div class="container">
+		<h2>JSON Field Statistics</h2>
+		<table class="table table-striped">
+	    	<thead>
+	      		<tr>
+			        <th>Field name</th>
+			        <th>Stats</th>
+	      		</tr>
+	    	</thead>
+	    <tbody>
+	      	<tr ng-repeat="s in stats" class="{{s.importance}}">
+		        <td>{{s.name}}</td>
+		        <td> have {{s.value}} of the fields are not empty.</td>
+	      	</tr>
+	    </tbody>
+	  </table>
+	</div>
+</div>
